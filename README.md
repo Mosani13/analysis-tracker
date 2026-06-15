@@ -1,4 +1,4 @@
-# analysis-tracker
+﻿# analysis-tracker
 
 연구 분석/실험 진행을 관리하는 **단일파일 HTML 트래커** + **포트폴리오 병목 매트릭스**. Claude Code 스킬로도 동작하고, 파이썬 생성기로 단독 사용도 가능하다.
 
@@ -38,7 +38,7 @@ python scripts/build_status.py ./my_tracker
 JSON이 진실원천이고 HTML은 생성물이다. 브라우저에서의 추가/드래그는 localStorage에 임시 저장되며, 영구 반영하려면 **JSON 내보내기 → 파일 저장 → 생성기 재실행**.
 
 ## 요건
-Python 3 + [`python-pptx`는 불필요], 표준 라이브러리만 사용. 웹폰트(NanumSquare)는 CDN.
+Python 3 (표준 라이브러리만 — 외부 패키지 불필요). 웹폰트 NanumSquare는 CDN(오프라인 시 시스템 폰트로 폴백).
 
 ## 라이선스
 MIT

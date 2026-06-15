@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-"""analysis_board.json -> analysis_board.html (CCEL 스타일 칸반 대시보드).
+"""analysis_board.json -> analysis_board.html (칸반 대시보드).
 재생성: python build_board.py"""
 import json, os, datetime, sys
 
@@ -20,7 +20,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>분석 트래커 · CCEL</title>
+<title>분석 트래커</title>
 <link href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css" rel="stylesheet">
 <style>
 :root{
